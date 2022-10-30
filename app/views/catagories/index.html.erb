@@ -1,6 +1,6 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Catagories</h1>
+<h1>Categories</h1>
 
 <table class="table">
   <thead>
@@ -9,12 +9,12 @@
         <% @catagories.each do |catagory| %>
           <%= render catagory %>
           <p>
-            <%= link_to "Show this catagory", catagory, class:"btn btn-secondary"  %>
+            <%= link_to "Show this category", catagory, class:"btn btn-secondary"  %>
           </p>
         <% end %>
       </div>
 
-      <%= link_to "New catagory", new_catagory_path, class:"btn btn-secondary"  %>
+      <%= link_to "New category", new_catagory_path, class:"btn btn-secondary"  %>
   </tr>
   <thead>
 </table>
