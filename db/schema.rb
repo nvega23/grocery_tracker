@@ -13,7 +13,7 @@
 ActiveRecord::Schema[7.0].define(version: 2022_10_05_040119) do
   create_table "catagories", force: :cascade do |t|
     t.string "item"
-    t.string "cost"
+    t.float "cost"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
